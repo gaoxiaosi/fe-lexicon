@@ -1,0 +1,16 @@
+{
+  "name": "fe-sougou-lexicon",
+  "version": "1.0.0",
+  "description": "前端开发词库（搜狗）",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "keywords": [
+    "fe",
+    "sougou",
+    "lexicon"
+  ],
+  "author": "wupeng",
+  "license": "ISC"
+}
