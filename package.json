@@ -12,5 +12,8 @@
     "lexicon"
   ],
   "author": "wupeng",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
 }

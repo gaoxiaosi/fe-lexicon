@@ -1,4 +1,5 @@
 const fs = require('fs');
+const chalk = require('chalk');
 
 // TODO: 处理markdown的正则，待优化
 const reg = /##[^\n]*\n(.*?)(?=\n##?\s|$)/gm
@@ -14,6 +15,7 @@ const convert = () => {
   let repeats = arr.filter((item, index) => arr.indexOf(item) !== index);
   if (repeats.length === 0) {
     fs.writeFileSync('sougou.text', arr.join('\n'), 'utf-8');
+    console.log(chalk.green('搜狗词库：已转换完成！'))
   } else {
     throw new Error(`有重复项：${repeats}`);
   }
