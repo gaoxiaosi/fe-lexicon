@@ -1,19 +1,37 @@
 {
-  "name": "fe-sougou-lexicon",
-  "version": "1.0.0",
+  "name": "fe-lexicon",
+  "private": true,
+  "version": "1.0.1",
+  "author": "wupeng",
+  "license": "ISC",
+  "type": "module",
   "description": "前端开发词库（搜狗）",
-  "main": "index.js",
-  "scripts": {
-    "build": "node index.js"
-  },
   "keywords": [
     "fe",
     "sougou",
     "lexicon"
   ],
-  "author": "wupeng",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^4.1.2"
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "convert": "npx ts-node --esm ./src/utils/convert.ts"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.1.0",
+    "@tsconfig/svelte": "^3.0.0",
+    "@types/node": "^18.11.9",
+    "autoprefixer": "^10.4.13",
+    "chalk": "^5.1.2",
+    "postcss": "^8.4.19",
+    "svelte": "^3.52.0",
+    "svelte-check": "^2.9.2",
+    "svelte-preprocess": "^4.10.7",
+    "tailwindcss": "^3.2.4",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.2.3"
   }
 }
