@@ -38,7 +38,7 @@ module.exports = {
         'slide-custom': 'slide-custom 1s 1',
         'spin-custom': 'spin 1s 1'
       }
-    },
+    }
   },
   plugins: [
     require("tailwindcss"),
