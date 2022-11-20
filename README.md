@@ -1,6 +1,8 @@
 # 前端开发词库
 搜集前端常用词并构建词库，导入到各个输入法中，提高输入效率，暂时只支持搜狗输入法。
 
+**在线词汇**：https://gaoxiaosi.github.io/fe-lexicon/
+
 **使用方法**：`pnpm run convert`，将data目录下的词库转换成相应输入法词库文件格式，如搜狗的**sougou.txt**，然后将该文件上传到搜狗词库。词库地址：https://pinyin.sogou.com/dict/detail/index/148103。
 
 # 使用最近热门技术重构小工具，浅谈体验
