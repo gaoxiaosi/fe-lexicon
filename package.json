@@ -16,7 +16,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "convert": "npx ts-node --esm ./src/utils/convert.ts"
+    "convert": "npx ts-node --esm ./src/utils/convert.ts",
+    "deploy": "sh deploy.sh"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.1.0",
