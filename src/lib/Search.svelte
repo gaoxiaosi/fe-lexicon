@@ -11,11 +11,11 @@
   }
   const onCompositionStart = () => {
     isSearch = false;
-  };
+  }
   const onCompositionEnd = () => {
     isSearch = true;
     search();
-  };
+  }
 </script>
 
 <div class="text-center mb-10">
