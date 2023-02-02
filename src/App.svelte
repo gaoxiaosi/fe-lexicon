@@ -22,7 +22,7 @@
 </script>
 
 <main>
-  <h1 class="text-center text-[30px] font-bold my-[24px] text-sky-500 animate-spin-custom">FE LEXICON</h1>
+  <h1 class="text-center text-[30px] font-bold my-[24px] text-sky-500 animate-spin-custom">前端词库</h1>
   <Search on:search={search}/>
   {#each dataList as { module, list }}
     <List { module } { list }/>

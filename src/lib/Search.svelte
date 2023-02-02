@@ -3,16 +3,16 @@
   const emit = createEventDispatcher();
 
   let searchVal: string = '', isSearch: boolean = true;
-  const search = () => {
+  const search = ():void => {
     emit('search', searchVal);
   }
-  const onChange = () => {
+  const onChange = ():void => {
     isSearch && search()
   }
-  const onCompositionStart = () => {
+  const onCompositionStart = ():void => {
     isSearch = false;
   }
-  const onCompositionEnd = () => {
+  const onCompositionEnd = ():void => {
     isSearch = true;
     search();
   }
